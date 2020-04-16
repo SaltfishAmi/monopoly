@@ -24,6 +24,7 @@ You have:
 
 You **don't** have:
 * Multi-player, either local or online, 'cause it's not implemented. Play with your self.
+* Building and upgrading houses on your land, for the same reason as above.
 * Generally applicable maps, 'cause the maps are just restaurants around our school.
 * Up-to-date maps, 'cause the maps are drawn approximately 2 years ago, and many restaurants may have bankrupted in this period.
 * Frameworks or other fancy thingy, 'cause the whole thing is smaller than a jquery.js and there is no reason to make it huge.
