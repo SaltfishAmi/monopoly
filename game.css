@@ -1,0 +1,113 @@
+	td {
+	    min-width: 85.4px;
+		height: 48px;
+		text-align: center;
+		font-family: Times New Roman, 宋体, serif;
+		font-size: 12px;
+		border: 1px solid;
+		background-color: #fdfdfd;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	td:hover{
+		background-color: #fee
+	}
+	td:active{
+		background-color: #fcc
+	}
+	table {
+		table-layout: fixed;
+		border-collapse: collapse;
+	}
+	.cell{
+		background-color: #f0f0f0;
+	}
+	.vroad {
+		border-width: 0 1px 0 1px;
+	}
+	.hroad {
+		border-width: 1px 0 1px 0;
+	}
+	.lroad {
+		border-left: 0;
+	}
+	.rroad {
+		border-right: 0;
+	}
+	.troad {
+		border-top: 0;
+	}
+	.broad {
+		border-bottom: 0;
+	}
+	.croad {
+		border: none;
+	}
+	.empty {
+		border: none;
+		background-color: transparent;
+	}
+	.fakebutton {
+		cursor: default;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		border: 2px solid #bbb;
+		padding: 0 2px 0 2px;
+		background-color: #e4e4e4; 
+		display: inline-block;
+		text-align: center;
+	}
+	.fakebutton:hover {
+		background-color: #f4f4f4;
+	}
+	.fakebutton:active {
+		background-color: #ddd;
+		position: relative;
+		left: 1px;
+		top: 1px;
+	}
+	.mono {
+		font-family: Lucida Console, monospace;
+	}
+	.player {
+		font-family: Lucida Console;
+		font-size: 16px;
+		padding: 2px 2px 2px 2px;
+		background-color: #ccc;
+	}
+	._active {
+		font-weight: bold;
+		color: red;
+		background-color: #ff0;
+	}
+	.red {
+		color: red;
+	}
+	.right {
+		display: block;
+		margin-left:auto;
+		margin-right:0;
+		clear:right;
+		float:right;
+	}
+	#tbdiv {
+		margin-top: 64px;
+	}
+	#hd {
+		font-family: sans-serif;
+		border: 2px solid #aaa;
+		border-width: 0 0 2px 0;
+		padding: 8px 0 2px 0;
+		width: 96vw;
+		position: fixed;
+		top: 0;
+		background-color: white;
+	}
